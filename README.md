@@ -26,6 +26,6 @@ Use the `get_next_line.pdf` to get started.
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:HishamEltayb/Get_Next_Line.git
+   git clone https://github.com/HishamEltayb/Get_Next_Line.git
    ```
 
