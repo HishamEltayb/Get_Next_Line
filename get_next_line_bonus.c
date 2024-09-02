@@ -76,7 +76,7 @@ char	*get_next_line(int fd)
 
 	join = NULL;
 	letters = 1;
-	if (fd < 0 || BUFFER_SIZE <= 0 || BUFFER_SIZE >= INT_MAX)
+	if (fd < 0 || fd > OPEN_MAX || BUFFER_SIZE <= 0 || BUFFER_SIZE >= INT_MAX)
 		return (NULL);
 	buffer = malloc((BUFFER_SIZE + 1));
 	if (!buffer)
